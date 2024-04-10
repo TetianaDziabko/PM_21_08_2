@@ -20,11 +20,22 @@
             <div class="b-g-color-fff d-flex termin">Last 30 Day's <div class="trigle-down"></div></div>
         </div>
     </div>
+
     <app-blocks></app-blocks>
     <app-earning-graph></app-earning-graph>
-    <app-map></app-map>
-    <app-trafic-sources></app-trafic-sources>
+
+    <div class="line">
+       <app-map class="map-content"></app-map>
+       <app-trafic-sources class="trafic-content"></app-trafic-sources>
+    </div>
+
     <app-recent-order></app-recent-order>
-    <app-site-visits></app-site-visits>
-    <app-marceting-camping></app-marceting-camping>
+
+    <div class="line">
+        <app-site-visits class="visits-content"></app-site-visits>
+        <app-marceting-camping class="marceting-content"></app-marceting-camping>
+    </div>
+
+    
+    
 </div>

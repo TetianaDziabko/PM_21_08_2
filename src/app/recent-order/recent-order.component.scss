@@ -1,0 +1,110 @@
+#recent-order_box{
+    height: 440px;
+    width: 100%;
+    font-family: 'lato';
+    color: #777;
+    .line{
+        margin-top: 0;
+        margin-bottom: 25px;
+        align-items: center;
+    }
+    .title{
+        font-weight: 700;
+        margin: 0px 0px 0px 0px;
+    }
+    hr{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    span{
+        display: flex;
+        height: 24px;
+        justify-content: center;
+    }
+    .p-n{
+        width: 171px;
+    }
+    .img-box{
+        display: flex;
+        justify-content: center;
+        width: 48px;
+    }
+    .p-c{
+        width: 125px;
+    }
+    .status{
+        width: 80px;
+    }
+    .p-o{
+        width: 124px;
+    }
+    .price{
+        width: 47px;
+    }
+    .quantity{
+        width: 76px;
+    }
+    .tracking{
+        width: 119px;
+    }
+}
+.shadow{
+    box-shadow: 0px 0px 2px black;
+}
+.b-g-color-fff{
+    background-color: #fff;
+}
+.head-item{
+    display: flex;
+    img:hover{
+        cursor: pointer;
+        background-color: #dfdfdf;
+    }
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 20px 10px 20px 20px;
+    color: #777;
+    border-bottom: 1px solid #e8e8e8;
+    font-size: 13px;
+    font-family: 'lato';
+    img{
+        margin-right:15px;
+    }
+}
+.line{
+    width: 100%;
+    margin: 2% 0 1% 0;
+    display: flex;
+    justify-content: space-between;
+}
+.any-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    height: calc(100% - 50px);
+    width: 100%;
+}
+.prew{
+    display: flex;
+    color: #f1f1f1;
+    width: 80px;
+    background-color: #fff;
+    z-index: 1;
+    border: #ccc 1px solid;
+    border-radius: 8px/50%;
+    justify-content: center;
+}
+.b-g-color-f63{
+    background-color: #ff6633; 
+    border: #ff6633;   
+}
+.b-g-color-0cc{
+    background-color: #00cccc;  
+    border: #00cccc;  
+}
+.b-g-color-f1a80a{
+    background-color: #f1a80a;
+    border: #f1a80a;    
+}
