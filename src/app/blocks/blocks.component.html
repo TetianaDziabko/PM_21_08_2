@@ -1,26 +1,8 @@
 <div class="line">
-    <div class="count-info_box b-g-color-fff shadow">
-        <span class="prew">Visitors</span>
-        <div class="img_box"><img src="/assets/img/visitors.png" alt=""></div>
-        <hr class="hr-in-box">
-        <span><b> 125 K</b></span>
-    </div>
-    <div class="count-info_box b-g-color-fff shadow">
-        <span class="prew">New Order</span>
-        <div class="img_box"><img src="/assets/img/new-order.png" alt=""></div>
-        <hr class="hr-in-box">
-        <span><b> 28 K</b></span>
-    </div>
-    <div class="count-info_box b-g-color-fff shadow">
-        <span class="prew">Sales</span>
-        <div class="img_box"><img src="/assets/img/sales.png" alt=""></div>
-        <hr class="hr-in-box">
-        <span><b> 25 K</b></span>
-    </div>
-    <div class="count-info_box b-g-color-fff shadow">
-        <span class="prew">Shipping</span>
-        <div class="img_box"><img src="/assets/img/shipping.png" alt=""></div>
-        <hr class="hr-in-box">
-        <span><b> 12 K</b></span>
-    </div>
+    <app-card class="card-content"
+        *ngFor="let item of menuItems"
+        [icon]="item.icon" 
+        [label]="item.label"
+        [value]="item.value">
+    </app-card>
 </div>

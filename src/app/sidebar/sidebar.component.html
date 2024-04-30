@@ -34,14 +34,11 @@
         <hr class="hr-color">
         <ul class="list-unstyled">
             <li class=""><a href="#" class="text-decoration-none second-text">ELEMENTS</a></li>
-            <li class=""><a href="#" class="text-decoration-none"><img src="/assets/img/Invoice.png">Invoice</a></li>
-            <li class=""><a href="#earning_box" class="text-decoration-none"><img src="/assets/img/charts.png">Charts</a></li>
-            <li class=""><a href="#" class="text-decoration-none"><img src="/assets/img/snippets.png">Snippets</a></li>
-            <li class=""><a href="#" class="text-decoration-none"><img src="/assets/img/vidgets.png">UI Widgets</a></li>
-            <li class=""><a href="#" class="text-decoration-none"><img src="/assets/img/forms.png">Forms</a></li>
-            <li class=""><a href="#" class="text-decoration-none"><img src="/assets/img/componets.png">Componnets</a></li>
-            <li class=""><a href="#" class="text-decoration-none"><img src="/assets/img/plugin.png">Plugins</a></li>
-            <li class=""><a href="#" class="text-decoration-none"><img src="/assets/img/email.png">Email</a></li>
-        </ul>
+            <app-sidebar-menu-items 
+            *ngFor="let item of menuItems"
+            [icon]="item.icon" 
+            [label]="item.label">
+          </app-sidebar-menu-items>
+        </ul>        
     </div>
 </div>

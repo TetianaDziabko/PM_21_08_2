@@ -1,0 +1,20 @@
+li{
+    :hover{
+        background-color: #253340;
+    }
+    
+    .img-box{
+        width: 30px;
+        height: 30px;
+    }
+    a{
+        display: block;
+        color: #ededeb;
+        padding-left: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        img{
+            padding-right: 30px;
+        }
+    }   
+}
